@@ -1,5 +1,5 @@
+import './styles/global.css'
+
 export function App(){
-    throw new Error('Eita Giovana, o forninho caiu!')
-    
-    return <h1>ReactJS</h1>
+    return <h1>Hello World</h1>
 }
