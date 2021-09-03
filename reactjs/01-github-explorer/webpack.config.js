@@ -13,11 +13,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx', 'ts', 'tsx']
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public')
+      directory: path.resolve(__dirname, 'public')
     },
     hot: true
   },
