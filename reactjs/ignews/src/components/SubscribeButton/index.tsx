@@ -29,3 +29,4 @@ export function SubscribeButton( { priceId }: SubscribeButtonProps) {
     )
 }
 
+
